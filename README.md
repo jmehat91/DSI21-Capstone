@@ -7,17 +7,17 @@
 
 **Goals**: 
 1. Develop a classification model to accurately classify if a patient is alive or dead
-2. Determine what features are important 
- - Eg. does ethnicity or specific drugs impact survival?
+2. Determine what features are important; eg. does ethnicity or do specific drugs impact survival?
 
 **Success Metrics**:
 1. Acheive an accuracy score above baseline 
-2. Acheive a high precision score
- - Reduce number of false positives, ie. predicting a patient is alive when they are actually dead
+2. Acheive a high precision score by reducing number of false positives; ie. predicting a patient is alive when they are actually dead
 
 
 ## Data Acquisition
-The dataset was easily retreived from [The Simulacrum](https://simulacrum.healthdatainsight.org.uk/) 
+The synthetic dataset, [The Simulacrum](https://simulacrum.healthdatainsight.org.uk/),  was easily downloaded in the form of a relational database containing 8 CSV files ranging from 0.5 million - > 2 million rows of patient data.
+
+After opening a connection to a local SQLite database, the datasets were added and using SQL the relevant data were retreived and compiled into one dataset.
 
 <img width="716" alt="Screenshot 2022-03-01 at 12 10 15" src="https://user-images.githubusercontent.com/41794055/156166876-461ad3c5-bcde-46ec-88e1-72acdee6b326.png">
 
@@ -35,3 +35,7 @@ The dataset was easily retreived from [The Simulacrum](https://simulacrum.health
 
 ### Features
 <img width="467" alt="image" src="https://user-images.githubusercontent.com/41794055/156182128-2103e2a1-e5b3-4f86-a0ea-1493f5c93dec.png">
+
+### Evaluation
+<img width="399" alt="image" src="https://user-images.githubusercontent.com/41794055/156399864-a8fc8043-5ae4-416e-a0d9-35b658582e65.png">
+
