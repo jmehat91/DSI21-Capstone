@@ -17,7 +17,7 @@ Lung cancer is the third most common cancer in both the US and UK, however, it i
 ## Data Acquisition
 Public Health England’s National Cancer Registration and Analysis Service (NCRAS), is one of the most comprehensive databases on cancer and tumour diseases. Every year, the NCRAS collects information on > 300,000 cases of cancer, including patient details (name, address, age, sex, ethnicity, etc.), detailed data about the type of cancer, how advanced it is and the drugs the patient received. In order to protect the anonymity of the patients while still using the database for research purposes, a synthetic dataset, known as the [The Simulacrum](https://simulacrum.healthdatainsight.org.uk/), was created which accurately mimics the real database.      
 
-The Simulacrum, was easily downloaded in the form of a relational database containing 8 CSV files ranging from 0.5 million - > 2 million rows of patient data.
+The Simulacrum, was downloaded in the form of a relational database containing 8 CSV files ranging from 0.5 million - > 2 million rows of patient data.
 
 After opening a connection to a local SQLite database, the datasets were added and using SQL the relevant data were retrieved and compiled into one dataset to work with. 
 
